@@ -1,6 +1,5 @@
 var _ = require('underscore'),
     irc = require('irc'),
-    c = require('irc-colors'),
     config = require('../config/config.json'),
     client,
     commands = [],
