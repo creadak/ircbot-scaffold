@@ -16,7 +16,7 @@ exports.init = function () {
     client.addListener('registered', function (message) {
         // Send connect commands after joining a server
         if (typeof config.connectCommands !== 'undefined' && config.connectCommands.length > 0) {
-            _.each(config.connectCommands, function (cmd) {a
+            _.each(config.connectCommands, function (cmd) {
                 if(cmd.target && cmd.message) {
                     client.say(cmd.target, cmd.message);
                 }
