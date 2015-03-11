@@ -68,6 +68,7 @@ exports.init = function () {
             }, this);
         }
     });
+};
 
 /**
  * Add a public command to the bot
