@@ -1,0 +1,24 @@
+{
+    "server":        "irc.redbrick.dcu.ie",
+    "nick":          "TechBot",
+    "connectCommands": [
+        {
+            "target": "",
+            "message": ""
+        }
+    ],
+    "joinCommands": {
+        "#bots": [
+            {
+                "target": "",
+                "message": ""
+            }
+        ]
+    },
+    "clientOptions": {
+        "userName":             "creadak",
+        "channels":             ["#TechWeekBot"],
+        "floodProtection":      true,
+        "floodProtectionDelay": 250
+    }
+}
